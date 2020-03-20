@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: 'calibri'; /*a name to be used later*/
+    src: url('./../fonts/calibri.ttf'); /*URL to font*/
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+i{
+    align-self: flex-end;
+}
+
+#title{
+        height: 110%
+}
+
+#helpText{
+    position: absolute;
+    max-width: 50vw;
+    top : 15vh;
+    left: 10vw;
+    display: none;
+    z-index: 999;
+    border: solid black 2px;
+    border-radius: 5px;
+    text-indent: 2rem;
+    padding: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: justify;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfff4+0,dfe5d7+40,b3bead+100;Wax+3D+%233 */
+background: #fcfff4; /* Old browsers */
+background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 ); /* IE6-9 */
+}
+
+#molList a video{
+        transition: all 1s ease-out;
+}
+#molList a video:hover{
+           transform: scale(1.2)
+}
+
+#molList{
+  margin-top: 1%;
+}
+
+#molList a{
+        position: absolute;
+}
+#molList a:nth-child(1){
+        left: 5%;
+        top: 15%;
+}
+#molList a:nth-child(2){
+        left : 19%;
+        top: 41%;
+}
+#molList a:nth-child(3){
+        left : 31%;
+        top: 16%;
+}
+#molList a:nth-child(4){
+        left : 40%;
+        top: 62%;
+}
+#molList a:nth-child(5){
+        left : 48%;
+        top: 52%;
+}
+#molList a:nth-child(6){
+        left : 56%;
+        top: 19%;
+}
+#molList a:nth-child(7){
+        left : 62%;
+        top: 58%;
+}
+#molList a:nth-child(8){
+        left : 81%;
+        top: 21%;
+}
+
+
+#molList a:nth-child(1) video{
+        width: 68%;
+        height: auto;
+}
+#molList a:nth-child(2) video{
+        width: 80%;
+        height: auto;
+}
+#molList a:nth-child(3) video{
+        width: 73%;
+        height: auto;
+}
+#molList a:nth-child(4) video{
+        width: 70%;
+        height: auto;
+}
+#molList a:nth-child(5) video{
+        width: 20%;
+        height: auto;
+}
+#molList a:nth-child(6) video{
+        width: 53%;
+        height: auto;
+}
+#molList a:nth-child(7) video{
+        width: 95%;
+        height: auto;
+}
+#molList a:nth-child(8) video{
+        width: 81%;
+        height: auto;
+}
+
+.black_back{
+        background-color: black;
+        height: 90vh;
+        width: 100%
+}
+
+
+
+.pechadique img{
+        width : 25%;
+        background-color: white;
+        position: absolute;
+        bottom: 0px;
+}

@@ -1,0 +1,4 @@
+﻿DATA
+-technologique-
+
+Apparue en 2006, la notion Big data témoigne de l’émergence fulgurante des masses de données. Face au caractère encore abstrait de ce terme, Pierre Gancarski - maître de conférence et enseignant chercheur en informatique- a relevé les caractéristiques majeures du Big Data à l’occasion de la conférence science des données : comment faire face au déluge des données ?. Nous pouvons fractionner ces caractéristiques en sept modules distincts nommés « Volume, Vélocité, Variété, Véracité, Variabilité, Volatilité et Vulnérabilité »

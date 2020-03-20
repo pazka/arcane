@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Made with AngularJS -->
+<html >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="description" content="Alessia Sanna, periodique"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=yes"/>
+  <title>Tableau Détaillé</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--icons-->
+  <link href="./../css/bootstrap-theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./../css/bootstrap.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./../css/animations.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" type="image/png" href="./../../favicon.png" />
+  <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+
+<body >
+  <a id="returnBackground" class="return " href="..">
+    <i id"returnIcon" class="invert material-icons lg ">arrow_back</i>
+  </a>
+    <div id="fullTab">
+        <img id="2" src="./media/tab1.png" class="tab" alt="portion de tableau périodique" onclick="showMinis(2)">
+        <img id="1" src="./media/tab2.png" class="tab" alt="portion de tableau périodique" onclick="showMinis(1)">
+        <img id="3" src="./media/tab3.png" class="tab" alt="portion de tableau périodique" onclick="showMinis(3)">
+        <img id="0" src="./media/tab4.png" class="tab" alt="portion de tableau périodique" onclick="showMinis(0)">
+        <img id="4" src="./media/tab5.png" class="tab" alt="portion de tableau périodique" onclick="showMinis(4)">
+    </div>
+    <div id="allMinis">
+
+    </div>
+</body>
+<!--  Scripts-->
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="./script.js"></script>
+</html>

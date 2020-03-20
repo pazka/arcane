@@ -1,0 +1,78 @@
+Alexandre Weisser, Développeur du site sous la direction de Alessia Sanna
+Journal de Bord
+
+08/04 : 
+	- Explication du chef de projet du fonctionnement idéal du site et de ses objectifs
+	- Discution et mise en place de ce que sera le site
+	- Recherche sur les posibilités de ce projet et ses difficultés
+
+12/04 :
+	- Mise en place de la base de ressources ( images, vidéos )
+	- Premier jet de la structure du site : http://imgur.com/YMDZo6W
+	- Organisation des étapes de création du site
+
+14/04 :
+	- Prise en main et Modélisation des molécules grace à "PyMol"
+	- Début de créations des 7 molécules et 63 atomes à détailer ==> Complétion de la base de ressources.
+	- Finalisation de la présentation : 
+		Une molécules comprendra :
+			- 1 animation de la modélisation
+			- 1 grande représentation illustrée avec de simages à la place des atomes
+			- 5 représentations schématisé d'elle même
+			- 1 fichiers comprenant toutes les positions des atomes et leurs charactéristiques ex :http://www.alessiasanna.fr/Arcane/projet/Molecules/FOG/Details/positions.json
+			- X atomes, chaques atomes comprendra :
+				- 1 image 
+				- 1 texte explicatif
+	- Définition de l'arborescence à suivre par rapport à cette organisation
+	- Choix de la technologie : Angular.js + P5.jset pour le CSS : Boostrap
+
+16/04 : 
+	- Page d'accueil finie à 80%
+	- Complétion de la base de ressources
+	- 30% du développement Angular.js
+	- partials majoritairement fonctionnels
+	- page molécules :
+		- Solution pour P5.js trouvée, mis ene place de ces solutions 
+		- nouveau design pour cette page : http://imgur.com/8bNqrQe
+
+18/04 : 
+	- Animations et éléments graphique ajoutés sur la page d'acceuil et les partials
+	- Intégration et remanipulation de la base de ressources pour une meilleure intégration
+	- Page d'acceuil terminée
+	- Page de molécule finie à 60% :
+		- Affichage dynamique des couleur des atomes, 
+		- Organisation du CSS de la page toujours en cour mais fini sur le point de vue Boostrap
+		- affichage dynamique des textes
+
+20/04 :
+	- Base de ressources complété à 95% ( erreur dans c'ertaines description à changer )
+	- Affichage dynamique des élément complété
+	- Animation de la molécule principale complété à 80 % ( bug dans le déplacement)
+	- Création de l'afficheur d'image ( en fonction du clic sur les atomes )
+	- Modificatin de cet affichauer pour supporter les vidéo
+	- Refonte graphique  : http://imgur.com/nbmotRO
+	- Optimisation du chargement des images par précargement au glissement de la souris sur des atomes.
+21/04:
+	- Ajout de la formule texte
+	- Création d'une police "Arcane" pour affihcer els formule de manière scientifique ( petit chiffres)
+	- debugage de certain affichages
+	- site complété à 95%
+
+29/04:
+	- Suppression de l'afficheur d'image
+	- création d'une classe spéciale d'afficheur dans P5 pour afficher plusieur image et les modifier :
+		- système de séléction d'image créé
+		- affichage et déplacement créé
+
+02/05 :
+	- chagement de méthode pour l'affichage de plusieurs images, utilisation des possiblitées du DOM de P5.js
+	- les images sont maintenant des éléments de DOM type "img" sélectionnable pour récuperer l'image plaine résolution
+
+03/05 :
+	- implantation de la priorité des images effectué
+	- support des vidéos
+	- tableau des images correspondant à un élément du tableau périodique cliqué
+	- système de redimentionnement 
+	- système de dispartion d'image
+	- La non séléction des images ou atome en fond
+	- refonte graphique

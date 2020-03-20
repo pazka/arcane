@@ -1,0 +1,5 @@
+﻿INDUCTION
+-Technologique-
+
+Procéder par corrélation peut s’avérer trompeur, la fouille de donnés et leur interprétation, peut mener à un résultat biaisé et par extension à l’induction. 
+Percevoir correctement les données relayées sont donc difficilement dissociable du deep Learning

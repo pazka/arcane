@@ -1,0 +1,8 @@
+﻿APPLI 
+-projet-
+
+Alessia SANNA, IDO3.0, Strasbourg 2017
+600*400 cm
+
+La démarche s’appuie sur un travail de collecte réalisé chez des particuliers via le site Leboncoin.fr. L’insertion dans ce réseau a alors permis de récupérer une multitude de données personnelles concernant ces commerçants. Traitées, puis diffusées au travers des objets grâce à l’application IDO 3.0 ces informations personnelles entrent alors dans la sphère publique. L'application sur smartphone peut alors déclancher les objets, mais aussi renseigner sur leur date, l'emplacement et leur ordre d'aquisition.   
+
